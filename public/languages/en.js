@@ -1,0 +1,31 @@
+const translations = {
+    experience: 'My experience',
+    intro1: "Hello, I'm Gustavo.",
+    intro2: "I'm an",
+    intro3: "ethical hacker",
+    intro4: "and",
+    intro5: "full-stack developer",
+    intro6: "I enjoy",
+    intro7: "hacking",
+    intro8: "systems",
+    intro9: "My focus is ",
+    project: 'My projects',
+    contactMeHere: 'Contact me here',
+    download: 'Download',
+    aboutMe: 'About Me',
+    submit: 'Submit',
+    contactMe: 'Contact Me',
+    myProjects: 'My Projects',
+    contactInfo1: 'Please contact me directly at',
+    contactInfo2: 'or through this form.',
+    emailSent: 'Email sent successfully!',
+    placeholderEmail: 'Your email',
+    placeholderMsg: 'Your message',
+    mySkills: 'My skills',
+    dataDate: 'date',
+    linkCV: '/Resume%20-%20Gustavo Tardivo.pdf',
+    about: 'I am a detail-oriented dedicated cybersecurity professional with a passion for safeguarding digital landscapes.\nLeveraging expertise in penetration testing, vulnerability assessment, and incident response to ensure robust protection against cyber threats.\nCommitted to upholding the integrity and confidentiality of sensitive information while mitigating risks.\nSeeking to contribute comprehensive knowledge and skills to a dynamic team in the ever-evolving realm of cybersecurity.',
+};
+
+export default translations;
+  
