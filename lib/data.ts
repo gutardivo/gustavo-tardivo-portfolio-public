@@ -6,7 +6,7 @@ import { BiCodeAlt } from "react-icons/bi";
 import { AiOutlineCode } from "react-icons/ai";
 
 import mcmalwareImg from "@/public/mcmalware.png";
-import htbImg from "@/public/htb.png";
+import instagramSearchImg from "@/public/instagram-search.png";
 import mercurymsgImg from "@/public/mercurymsg.png";
 
 export const links = [
@@ -92,17 +92,17 @@ export const experiencesData = [
       datePt: "2020 - 2023",
     },
     {
-      titleEn: "Pentester",
-      titlePt: "Pentester",
+      titleEn: "Full-Stack Developer",
+      titlePt: "Desenvolvedor Full-Stack",
       location: "Freelancer",
       descriptionEn:
-        "Now, I'm 100% focused on pentesting and ethically hacking systems. I freelance, but I'm also seeking employment in this field.",
+        "Currently, I'm 100% focused on developing full-stack applications using modern technologies like React, Next.js, and Python. I freelance, but I'm also open to full-time opportunities in this field.",
       descriptionPt:
-        "Hoje estou 100% focado em pentesting e hackear sistemas de forma ética, faço freelancing, porém estou procurando emprego na área.",
+        "Atualmente, estou 100% focado no desenvolvimento de aplicações full-stack usando tecnologias modernas como React, Next.js e Python. Faço freelancing, mas também estou aberto a oportunidades de emprego nessa área.",
       icon: React.createElement(AiOutlineCode),
-      dateEn: "2023 - present",
-      datePt: "2023 - atual",
-    }
+      dateEn: "2021 - present",
+      datePt: "2021 - atual"
+    }    
 ] as const;
 
 export const projectsData = [
@@ -113,18 +113,18 @@ export const projectsData = [
       "I made this code to show how a malware works and hide itself from anti-virus.",
     descriptionPt:
       "Eu criei este código para mostrar como um malware funciona e se esconde dos antivírus.",
-    tags: ["Kali Linux", "Bash", "Go Lang", "Windows", "Ethical Hacking"],
+    tags: ["Kali Linux", "Bash", "Go Lang", "Windows", "Ethical Hacking", "CyberSecurity"],
     imageUrl: mcmalwareImg,
   },
   {
-    title: "HackTheBox",
-    link: "https://github.com/gutardivo/multiClient-reverseShell",
+    title: "Instagram Search AI",
+    link: "https://github.com/gutardivo/instagram-search-ai",
     descriptionEn:
-      "Pwned some machines in HTB.\n🏆 #769 Global Ranking.",
+    "Created this repository to search for someone based on characteristics in the followers of an Instagram account.",
     descriptionPt:
-      "Invadi algumas máquinas no HTB.\n🏆 #769 no ranking global.",
-    tags: ["nMap", "Burp Suite", "msfConsole", "Kali Linux", "Bash", "Ethical Hacking"],
-    imageUrl: htbImg,
+      "Criei este repositório para encontrar alguém com base em características nos seguidores de uma conta no Instagram.",
+    tags: ["Python", "Web Scrapping", "AI", "PyTorch"],
+    imageUrl: instagramSearchImg,
   },
   {
     title: "Mercury Messenger",
@@ -146,11 +146,14 @@ export const skillsData = [
   "React",
   "Kali Linux",
   "Ethical Hacking",
+  "CyberSecurity",
   "Bash",
   "Node.js",
   "Tailwind",
   "Prisma",
   "Express",
+  "TensorFlow",
+  "PyTorch",
   "Go Lang",
   "Python",
 ] as const;
