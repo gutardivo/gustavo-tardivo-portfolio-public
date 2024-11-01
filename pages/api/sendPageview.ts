@@ -6,15 +6,19 @@ type Data = {
   status: boolean
 }
 
+const GOOGLE_SERVICE_ACCOUNT = process.env.GOOGLE_SERVICE_ACCOUNT
+const GOOGLE_KEY = process.env.GOOGLE_KEY
+const SPREADSHEET_ID = process.env.SPREADSHEET_ID
+
 const appendSpreadsheet = async (data: any) => {
   const auth = new google.auth.JWT({
-    email: "YOUR_GOOGLE_SERVICE_ACCOUNT",
-    key: "YOUR_KEY",
+    email: GOOGLE_SERVICE_ACCOUNT,
+    key: GOOGLE_KEY,
     scopes: ["https://www.googleapis.com/auth/spreadsheets"]
   })
   const sheet = google.sheets("v4")
   await sheet.spreadsheets.values.append({
-    spreadsheetId: "SPREADSHEET_ID",
+    spreadsheetId: SPREADSHEET_ID,
     auth: auth,
     range: "Portfolio",
     valueInputOption: "RAW",

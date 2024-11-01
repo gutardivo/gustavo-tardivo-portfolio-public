@@ -4,6 +4,8 @@ import React, { useEffect } from 'react';
 import Script from 'next/script'
 import axios from 'axios';
 
+const IPINFO_TOKEN = process.env.NEXT_PUBLIC_IPINFO_TOKEN
+
 export default function Home() {
   let i = 0
   let commandIndex = 0
@@ -14,7 +16,7 @@ export default function Home() {
   useEffect(() => {
     const sendDataToAPI = async () => {
       try {
-        const response = await axios.get('https://ipinfo.io/json?token=YOUR_TOKEN');
+        const response = await axios.get(`https://ipinfo.io/json?token=${IPINFO_TOKEN}`);
         var { ip, city, region, country, loc } = response.data;
       } catch (error) {
         console.error('IPinfo error:', error);

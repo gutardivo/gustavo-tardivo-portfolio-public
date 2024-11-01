@@ -10,6 +10,8 @@ import Skills from "@/components/skills";
 import { useEffect } from "react";
 import axios from 'axios';
 
+const IPINFO_TOKEN = process.env.NEXT_PUBLIC_IPINFO_TOKEN
+
 export default function Home() {
   useEffect(() => {
     document.getElementById('transition-green')!.classList.remove('w-screen')
@@ -19,7 +21,7 @@ export default function Home() {
 
     const sendDataToAPI = async () => {
       try {
-        const response = await axios.get('https://ipinfo.io/json?token=YOUR_TOKEN');
+        const response = await axios.get(`https://ipinfo.io/json?token=${IPINFO_TOKEN}`);
         var { ip, city, region, country, loc } = response.data;
       } catch (error) {
         console.error('IPinfo error:', error);
