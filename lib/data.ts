@@ -130,9 +130,9 @@ export const projectsData = [
     title: "Mercury Messenger",
     link: "https://mercury-next.vercel.app/",
     descriptionEn:
-      "I worked in this startup for 3 years long as full-stack developer and now working as freelancer pentester.",
+      "I worked in this startup for 3 years long as full-stack developer.",
     descriptionPt:
-      "Trabalhei nesta startup por 3 anos como desenvolvedor full-stack e agora trabalho como pentester freelancer.",
+      "Trabalhei nesta startup por 3 anos como desenvolvedor full-stack.",
     tags: ["Kali Linux", "Bash", "Burp Suite", "nMap", "Next.js", "Django", "TypeScript", "Tailwind", "Prisma"],
     imageUrl: mercurymsgImg,
   },
