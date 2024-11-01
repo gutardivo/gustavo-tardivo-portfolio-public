@@ -79,7 +79,7 @@ export default function Intro() {
         <span className="italic"> { languageData.intro5 }</span>.
         <span className="font-bold"><br/>{ languageData.intro6 }</span> { languageData.intro7 } 
         <span className="italic"> sites & { languageData.intro8 }</span>.<br/>{ languageData.intro9 } 
-        <span className="underline">OffSec</span>.
+        <span className="underline">{ languageData.intro10 }</span>.
         
       </motion.h1>
 
