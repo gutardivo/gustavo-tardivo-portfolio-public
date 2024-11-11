@@ -254,8 +254,8 @@ export default function Home() {
 
   return (
     <>
-      <div id="transition-green" style={{height:"300vh",zIndex:"1000"}} className="fixed min-h-screen w-screen bg-green-500 transition-all duration-[1000ms] ease-in-out"></div>
-      <div id="transition-white" style={{height:"300vh",zIndex:"999"}} className="fixed min-h-screen w-screen bg-white transition-all duration-[1300ms] ease-in-out"></div>
+      <div id="transition-green" style={{height:"300vh",zIndex:"1000"}} className="fixed top-0 min-h-screen w-screen bg-green-500 transition-all duration-[1000ms] ease-in-out"></div>
+      <div id="transition-white" style={{height:"300vh",zIndex:"999"}} className="fixed top-0 min-h-screen w-screen bg-white transition-all duration-[1300ms] ease-in-out"></div>
       <main className="flex flex-col items-center px-4">
         <Intro />
         <SectionDivider />
