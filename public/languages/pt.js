@@ -4,7 +4,7 @@ const translations = {
   intro2: "Sou",
   intro3: "desenvolvedor full-stack",
   intro4: "e",
-  intro5: "amo codar.",
+  intro5: "amo codar",
   intro6: "Amo",
   intro7: "construir",
   intro8: "sistemas",
