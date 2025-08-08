@@ -1,7 +1,7 @@
 const translations = {
   experience: "My experience",
   intro1: "Hello, I'm Gustavo.",
-  intro2: "I'm an",
+  intro2: "I'm a",
   intro3: "full-stack software engineer",
   intro4: "and",
   intro5: "love coding",
