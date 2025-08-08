@@ -6,7 +6,7 @@ const translations = {
   intro4: "and",
   intro5: "love coding",
   intro6: "I enjoy",
-  intro7: "build",
+  intro7: "building",
   intro8: "systems",
   intro9: "My focus is ",
   intro10: "Development",
